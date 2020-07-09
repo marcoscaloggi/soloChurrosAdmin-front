@@ -1,0 +1,36 @@
+
+.nav_admin{
+  
+    background: #343a40;
+    .dropdown-item{
+        cursor: pointer;
+        color: white;
+
+        &:hover{
+            background-color:rgba(255, 0, 0, 0.226);
+            border: 0.1em solid white;
+        }
+    }
+}
+.desplegarLista{
+    animation: ease-out 2s 1;
+}
+
+@keyframes despliegue{
+0%{
+height: 0px;
+}
+100%{
+    height: 96px;
+}
+}
+
+@media (min-width: 576px){
+    .absolute-right{
+        position: absolute;
+        right: 0;
+    
+    }
+}
+
+
