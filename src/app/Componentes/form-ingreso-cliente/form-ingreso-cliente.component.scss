@@ -1,6 +1,4 @@
-.container-border{
- 
-}
+
 
 .main-container{
   border-bottom: 1px solid black;
@@ -34,8 +32,19 @@
     
     background: #4267b2;
 }
-
-
-.button-padding{
-    padding: 0.7rem 0;
+.phone-color{
+    background: rgb(41, 133, 41);
+}
+.adress-color{
+    background: rgb(130, 78, 13);
+}
+.localidad-color{
+    background: rgb(211, 108, 12);
+    
+}
+.size-localidad{
+    font-size: 1.6rem;
+}
+.select-height{
+    height: 50px;
 }

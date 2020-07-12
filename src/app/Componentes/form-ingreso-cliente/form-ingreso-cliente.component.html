@@ -19,18 +19,18 @@
 
                 <div class="input-group mb-3 ">
                     <div class="  input-group-prepend">
-                        <label style=" background: rgb(41, 133, 41);"
-                            class=" container-icon input-group-text border border-dark" for="telefono"><i
-                                class="text-white fas fa-phone-square-alt form-ingreso-cliente-icon phone-color"></i></label>
+                        <label
+                            class=" container-icon input-group-text border phone-color border-dark" for="telefono"><i
+                                class="text-white fas fa-phone-square-alt form-ingreso-cliente-icon "></i></label>
                     </div>
 
                     <input type="tel" placeholder="Ingrese numero de telefono" class="form-control py-4 border border-dark"
                         id="telefono">
                 </div>
 
-                <div class="input-group">
+                <div class="input-group mb-3">
                     <div class="input-group-prepend">
-                        <label style=" background: rgb(130, 78, 13);" class="container-icon input-group-text border border-dark" for="direccion">
+                        <label class="container-icon input-group-text border border-dark adress-color" for="direccion">
                             <i class="form-ingreso-cliente-icon text-white  fas fa-house-user" style="font-size: 1.8rem!important;"></i>
                         </label>
 
@@ -60,9 +60,29 @@
                         id="instagram">
                 </div>
 
-                <button type="submit" class=" button-padding btn btn-success btn-block">Guardar</button>
+                <div class="input-group  ">
+                    <div class="input-group-prepend">
+                        <label class="container-icon localidad-color input-group-text border-dark border" for="localidad">
+                            <i class="text-white form-ingreso-cliente-icon fas fa-city size-localidad "></i>
+                            
+                        </label>
+                    </div>
+                    <select type="text"  class="select-height form-control border border-dark"
+                        id="localidad">
 
+                   
+                    <option value="Caseros" selected>Caseros</option>
+                    <option value="Ramos Mejia">Ramos Mejia</option>
+                    <option value="Palomar">Palomar</option>
+                    <option value="Santos Lugares">Santos Lugares</option>
+                    <option value="Moron">Moron</option>
+                    <option value="Ciudadela">Ciudadela</option>
+ </select>
+                </div>
+
+              
             </div>
+  <button type="submit" class=" mx-3  btn btn-success btn-block">Guardar</button>
 
         </form>
     </div>
